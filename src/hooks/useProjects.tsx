@@ -6,6 +6,7 @@ import constellationImg from '../assets/images/constellation.png'
 import jokesAppImg from '../assets/images/jokes-app.jpg'
 import budgetsAppImg from '../assets/images/budgets-app.jpg'
 import roseShopImg from '../assets/images/rose-shop.jpg'
+import wineCourseImg from '../assets/images/wine-course.jpg'
 
 const PROJECTS: ProjectData[] = [
   {
@@ -74,6 +75,18 @@ const PROJECTS: ProjectData[] = [
     demoUrl: 'https://e-commerce-two-blue-36.vercel.app/',
     imageUrl: roseShopImg,
     imageAlt: 'Rose Shop e-commerce store screenshot',
+    featured: false,
+  },
+  {
+    title: 'Wine Course: Landing Page',
+    year: '2026',
+    description:
+      'A homepage-focused landing page for a wine course, built with a clean layout, clear content hierarchy, and conversion-oriented sections to present the program and encourage sign-ups.',
+    techs: ['HTML', 'CSS', 'JavaScript', 'Vercel'],
+    repoUrl: 'https://wine-course-nu.vercel.app/',
+    demoUrl: 'https://wine-course-nu.vercel.app/',
+    imageUrl: wineCourseImg,
+    imageAlt: 'Wine Course landing page screenshot',
     featured: false,
   },
   {

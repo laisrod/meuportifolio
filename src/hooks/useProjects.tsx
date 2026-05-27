@@ -1,5 +1,6 @@
 import type { ProjectData } from '../types'
 
+import itaWikiImg from '../assets/images/ita-wiki.png'
 import palevaImg from '../assets/images/paleva.png'
 import brazilianCinemaImg from '../assets/images/brazilian-cinema.jpg'
 import constellationImg from '../assets/images/constellation.png'
@@ -9,6 +10,23 @@ import roseShopImg from '../assets/images/rose-shop.jpg'
 import wineCourseImg from '../assets/images/wine-course.jpg'
 
 const PROJECTS: ProjectData[] = [
+  {
+    title: 'ITA Wiki: Learning Platform for Developers',
+    year: '2025',
+    description:
+      'A collaborative learning platform for IT Academy students to discover resources, practice with real technical challenges, collaborate on projects, and compete on leaderboards. Built fullstack with React, TypeScript, and PostgreSQL.',
+    techs: [
+      'React',
+      'TypeScript',
+      'PostgreSQL',
+      'Fullstack',
+    ],
+    repoUrl: '',
+    demoUrl: 'https://ita-wiki-frontend-production.up.railway.app/',
+    imageUrl: itaWikiImg,
+    imageAlt: 'ITA Wiki learning platform screenshot',
+    featured: false,
+  },
   {
     title: 'PaLeva: Full-Stack Restaurant Management',
     year: '2026',

@@ -90,6 +90,20 @@
   gap: var(--space-lg);
 }
 
+.hero__cv-button.button--secondary {
+  color: #f5c518;
+  border: 1px solid #f5c518;
+  padding: var(--space-xs) var(--space-md);
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  border-radius: var(--radius-full);
+}
+
+.hero__cv-button.button--secondary:hover:not(:disabled) {
+  background-color: rgba(245, 197, 24, 0.1);
+  transform: none;
+}
+
 .hero__name {
   font-family: var(--font-mono);
   font-size: var(--font-size-sm);

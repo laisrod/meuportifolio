@@ -1,6 +1,7 @@
 import { useRef, useCallback } from 'react'
 import { useSpring, animated, to } from '@react-spring/web'
 import Badge from '../ui/Badge'
+import Button from '../ui/Button'
 
 function Hero() {
   const h1Ref = useRef<HTMLHeadingElement>(null)
@@ -80,6 +81,16 @@ function Hero() {
             <p className="hero__name">Laís Rodrigues</p>
             <p className="hero__title">Full Stack Developer</p>
             <Badge variant="status">Open to work</Badge>
+            <Button
+              href="/cv-lais-rodrigues.pdf"
+              download="CV_Lais_Rodrigues.pdf"
+              variant="secondary"
+              size="sm"
+              className="hero__cv-button"
+              ariaLabel="Download CV (PDF)"
+            >
+              Download CV
+            </Button>
           </div>
 
           <div className="hero__social">

@@ -8,6 +8,7 @@ interface ButtonProps {
   href?: string
   target?: string
   rel?: string
+  download?: boolean | string
   type?: 'button' | 'submit'
   disabled?: boolean
   onClick?: () => void
@@ -22,6 +23,7 @@ function Button({
   href,
   target,
   rel,
+  download,
   type = 'button',
   disabled,
   onClick,
@@ -36,6 +38,7 @@ function Button({
         href={href}
         target={target}
         rel={rel}
+        download={download}
         className={classes}
         aria-label={ariaLabel}
       >

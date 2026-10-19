@@ -9,7 +9,7 @@ export interface ProjectData {
   year: string
   description: string
   techs: string[]
-  repoUrl: string
+  repoUrl?: string
   demoUrl: string
   imageUrl: string
   imageAlt: string

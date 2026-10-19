@@ -21,7 +21,6 @@ const PROJECTS: ProjectData[] = [
       'PostgreSQL',
       'Fullstack',
     ],
-    repoUrl: '',
     demoUrl: 'https://ita-wiki-frontend-production.up.railway.app/',
     imageUrl: itaWikiImg,
     imageAlt: 'ITA Wiki learning platform screenshot',
